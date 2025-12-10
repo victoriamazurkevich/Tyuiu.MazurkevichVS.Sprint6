@@ -122,6 +122,7 @@
             buttonDone.TabIndex = 8;
             buttonDone.Text = "Выполнить";
             buttonDone.UseVisualStyleBackColor = false;
+            
             // 
             // buttonHelp
             // 
