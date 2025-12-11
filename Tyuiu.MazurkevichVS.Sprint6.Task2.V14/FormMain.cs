@@ -42,7 +42,7 @@ namespace Tyuiu.MazurkevichVS.Sprint6.Task2.V14
 
             }
         }
-        private void buttonInfo_MVS_Click(object sender, EventArgs e)
+        private void ButtonInfo_MVS_Click(object sender, EventArgs e)
         
         {
             MessageBox.Show("Таск 2 выполнила студентка группы РППб-25-1 Мазуркевич В. С.");

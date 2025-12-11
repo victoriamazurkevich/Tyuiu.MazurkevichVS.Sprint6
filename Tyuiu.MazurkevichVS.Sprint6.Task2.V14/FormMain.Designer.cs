@@ -147,6 +147,7 @@
             ButtonDone_click_MVS.TabIndex = 7;
             ButtonDone_click_MVS.Text = "Выполнить";
             ButtonDone_click_MVS.UseVisualStyleBackColor = false;
+            ButtonDone_click_MVS.Click += new System.EventHandler(this.ButtonDone_click_MVS_Click);
             // 
             // ButtonInfo_MVS
             // 
@@ -157,6 +158,7 @@
             ButtonInfo_MVS.TabIndex = 6;
             ButtonInfo_MVS.Text = "Справка";
             ButtonInfo_MVS.UseVisualStyleBackColor = false;
+            ButtonInfo_MVS.Click += new System.EventHandler(this.ButtonInfo_MVS_Click);
             // 
             // textBoxForEnd_MVS
             // 
