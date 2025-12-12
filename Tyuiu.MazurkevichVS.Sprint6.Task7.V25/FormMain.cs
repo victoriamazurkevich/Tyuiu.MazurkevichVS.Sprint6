@@ -6,7 +6,7 @@ namespace Tyuiu.MazurkevichVS.Sprint6.Task7.V25
         public FormMain()
         {
             InitializeComponent();
-            
+
             openFileDialogTask_MVS.Filter = "Значения, разделенные запятыми(*.csv)|*.csv|Все файлы(*.*)|*.*";
             saveFileDialog_MVS.Filter = "Значения, разделенные запятыми(*.csv)|*.csv|Все файлы(*.*)|*.*";
 
@@ -16,6 +16,7 @@ namespace Tyuiu.MazurkevichVS.Sprint6.Task7.V25
         {
 
         }
+
         static int rows;
         static int columns;
         static string openFilePath;
@@ -60,7 +61,7 @@ namespace Tyuiu.MazurkevichVS.Sprint6.Task7.V25
                     dataGridViewInput_MVS.Rows[i].Cells[j].Value = arrayValues[i, j];
                 }
             }
-            arrayValues = ds.GetMatrix(openFilePath);
+            
             buttonPush_MVS.Enabled = true;
         }
 
@@ -116,9 +117,6 @@ namespace Tyuiu.MazurkevichVS.Sprint6.Task7.V25
             File.AppendAllText(path, str + Environment.NewLine);
             str = "";
         }
-
-
-
 
     }
 }

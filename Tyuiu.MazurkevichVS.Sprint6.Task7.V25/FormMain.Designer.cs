@@ -65,18 +65,20 @@
             // 
             // textBoxDiscript_MVS
             // 
+            textBoxDiscript_MVS.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             textBoxDiscript_MVS.BackColor = SystemColors.Control;
             textBoxDiscript_MVS.BorderStyle = BorderStyle.None;
             textBoxDiscript_MVS.Location = new Point(3, 27);
             textBoxDiscript_MVS.Multiline = true;
             textBoxDiscript_MVS.Name = "textBoxDiscript_MVS";
             textBoxDiscript_MVS.ReadOnly = true;
-            textBoxDiscript_MVS.Size = new Size(1044, 80);
+            textBoxDiscript_MVS.Size = new Size(1047, 83);
             textBoxDiscript_MVS.TabIndex = 0;
             textBoxDiscript_MVS.Text = resources.GetString("textBoxDiscript_MVS.Text");
             // 
             // buttonLoad_MVS
             // 
+            buttonLoad_MVS.AutoSize = true;
             buttonLoad_MVS.BackgroundImage = Properties.Resources.folder_page;
             buttonLoad_MVS.BackgroundImageLayout = ImageLayout.Center;
             buttonLoad_MVS.Location = new Point(12, 12);
@@ -89,6 +91,7 @@
             // 
             // buttonPush_MVS
             // 
+            buttonPush_MVS.AutoSize = true;
             buttonPush_MVS.BackgroundImage = Properties.Resources.page_white_go;
             buttonPush_MVS.BackgroundImageLayout = ImageLayout.Center;
             buttonPush_MVS.Enabled = false;
@@ -102,6 +105,7 @@
             // 
             // buttonSave_MVS
             // 
+            buttonSave_MVS.AutoSize = true;
             buttonSave_MVS.BackgroundImage = Properties.Resources.page_save;
             buttonSave_MVS.BackgroundImageLayout = ImageLayout.Center;
             buttonSave_MVS.Enabled = false;
@@ -115,6 +119,7 @@
             // 
             // buttonInfo_MVS
             // 
+            buttonInfo_MVS.AutoSize = true;
             buttonInfo_MVS.Image = Properties.Resources.help;
             buttonInfo_MVS.Location = new Point(941, 14);
             buttonInfo_MVS.Name = "buttonInfo_MVS";
@@ -213,6 +218,7 @@
             groupBoxRes_MVS.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridViewRes_MVS).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
 
@@ -227,7 +233,6 @@
         private GroupBox groupBoxInput_MVS;
         private GroupBox groupBoxRes_MVS;
         private TextBox textBoxDiscript_MVS;
-        private DataGridView dataGridViewInput_MVS;
         private DataGridView dataGridViewRes_MVS;
         private ToolTip toolTipLoad_MVS;
         private OpenFileDialog openFileDialogLoad_MVS;
@@ -236,5 +241,6 @@
         private OpenFileDialog openFileDialogTask_MVS;
         private ToolTip toolTipInfo_MVS;
         private SaveFileDialog saveFileDialog_MVS;
+        private DataGridView dataGridViewInput_MVS;
     }
 }
