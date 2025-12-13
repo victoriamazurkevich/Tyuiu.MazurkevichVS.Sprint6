@@ -51,8 +51,8 @@ namespace Tyuiu.MazurkevichVS.Sprint6.Task7.V25
             dataGridViewRes_MVS.RowCount = rows;
             for (int i = 0; i < columns; i++)
             {
-                dataGridViewInput_MVS.Columns[i].Width = 100;
-                dataGridViewRes_MVS.Columns[i].Width = 100;
+                dataGridViewInput_MVS.Columns[i].Width = 50;
+                dataGridViewRes_MVS.Columns[i].Width = 50;
             }
             for (int i = 0; i < rows; i++)
             {
